@@ -33,6 +33,27 @@ SPDX-License-Identifier: MIT
 #include "unity.h"
 
 /* === Macros definitions =========================================== */
+#define LED01        1
+#define LED02        2
+#define LED03        3
+#define LED04        4
+#define LED05        5
+#define LED06        6
+#define LED07        7
+#define LED08        8
+#define LED09        9
+#define LED10        10
+#define LED11        11
+#define LED12        12
+#define LED13        13
+#define LED14        14
+#define LED15        15
+#define LED16        16
+#define BIT_HIGH     1
+#define LED_OFFSET   1
+#define ALL_LEDS_OFF 0x00
+#define ALL_LEDS_ON  0xFF
+#define PORT_ADDRESS 0xFF
 
 /* === Private data type declarations ==================================== */
 
